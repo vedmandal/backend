@@ -1,4 +1,4 @@
-import express from "express"
+import express from "express";
 import dotenv from "dotenv"
 import connectdatabase from "./config/Database.js";
 import AuthRoute from "./Routes/AuthRoutes.js"
