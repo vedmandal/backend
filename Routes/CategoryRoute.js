@@ -1,4 +1,4 @@
-import express from "express"
+import express from "express";
 import { RequireSignIn, isAdmin } from "../middleware/AuthMiddleware.js";
 import { CreateCategoryController, DeleteCategoryController, GetAllCategory, SingleCategoryController, UpdateCategoryController } from "../Controllers/CategoryController.js";
 
