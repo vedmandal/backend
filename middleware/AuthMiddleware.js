@@ -1,5 +1,5 @@
 
-import jwt  from "jsonwebtoken"
+import jwt  from "jsonwebtoken";
 import UserModal from "../Models/UserModal.js";
 
 export const RequireSignIn=async(req,res,next)=>{
