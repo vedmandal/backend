@@ -1,5 +1,5 @@
 
- import mongoose from "mongoose"
+ import mongoose from "mongoose";
 const  connectdatabase=async()=>{
     try {
         const data=await mongoose.connect(process.env.MONGO_DB);
